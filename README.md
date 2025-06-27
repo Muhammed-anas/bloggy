@@ -1,88 +1,77 @@
-📝 Bloggy – Full Stack Blogging Platform (Python Django)
-A sleek, responsive blogging platform built with Django, enabling seamless content creation, management, and reading across all devices.
+## 📝 Bloggy – Full Stack Blogging Platform (Python Django)
 
-🌐 Live Demo: Coming Soon
+Welcome to **Bloggy**, a sleek and responsive blogging platform built using **Python** and **Django**. It enables effortless content creation, editing, and reading, with a focus on simplicity and clean user experience.
 
-👋 Hi, I'm Muhammed Anas
-I'm a passionate full stack developer focused on building scalable, elegant web applications.
-Bloggy showcases my backend skills in Python/Django and clean frontend design using Bootstrap and Jinja2.
+🔗 **Live Demo:** [bloggy-4xrs.onrender.com](https://bloggy-4xrs.onrender.com)
 
-📌 Project Overview
-Bloggy is a dynamic content management platform emphasizing simplicity, performance, and readability.
+---
+## 👋 Hi, I'm Muhammed Anas
 
-🌟 Core Features
-🖊️ Post Management
-Create, update, and delete posts via a simple admin interface.
+I'm a passionate full stack developer focused on building scalable, elegant, and user-friendly web applications. This project highlights my backend development skills with Django and clean frontend integration using Bootstrap and Jinja2.
 
-📂 Image Uploads
-Attach images to blog entries using Django’s media handling.
+---
+## 🚀 Project Overview
 
-🧾 Post Preview Cards
-Blog previews on the homepage with thumbnail, title, and timestamp.
+**Bloggy** is a dynamic content management platform with features like:
 
-📄 Detailed Post View
-Full content display with metadata on click.
+- 🖊️ Post Management with create, edit, and delete options via Django admin  
+- 📂 Image Uploads with media file support  
+- 🧾 Homepage Post Cards with title, thumbnail, and timestamp  
+- 📄 Full Post View with clean formatting and metadata  
+- 📃 Static Pages like About and Contact  
+- 📱 Responsive UI built with Bootstrap for all screen sizes  
 
-📱 Responsive Design
-Mobile-friendly layout using Bootstrap and semantic HTML.
+---
+## 🧱 Tech Stack
 
-📃 Static Pages
-Includes extra pages like About, Contact, and more.
+### Backend
+- **Python** with **Django**  
+- **SQLite** via Django ORM  
 
-🧱 Tech Stack
-Backend
+### Frontend
+- **HTML5**, **CSS3**, **Bootstrap**  
+- **Jinja2** templating  
 
-Python
+### Dev & Deployment
+- Django Admin Panel  
+- Django Forms with CSRF Protection  
+- Git & GitHub for version control  
+- **Render** for deployment  
 
-Django
+---
+## 🧠 Features in Development
 
-SQLite (Django ORM)
+- 🔐 User authentication for blog authors  
+- 💬 Comment system for readers  
+- 🏷️ Tag-based post filtering  
+- 🔍 Blog search functionality  
 
-Frontend
+---
+## 📚 My Broader Skills
 
-HTML5, CSS3
+- **Languages:** Python, JavaScript, TypeScript, Java, SQL, HTML, CSS  
+- **Web Development:** Django, Flask, React, Bootstrap  
+- **AI Tools:** scikit-learn, TensorFlow, HuggingFace  
+- **Databases:** MongoDB, SQLite, PostgreSQL  
+- **Tools:** Git, VS Code, Netlify, Postman, GitHub  
 
-Bootstrap
+---
+## 💼 Other Projects
 
-Jinja2 Templating
+- 🛍️ **[Shopfy](https://shopfy-ncx.netlify.app/)** – Full stack MERN-based eCommerce platform with multi-step checkout  
+- 🤖 **[GalaxNova](https://galaxnova.netlify.app/)** – AI chatbot interface built with React and Tailwind CSS  
+- 🚘 **[AutoLux](https://autolux-ntbk.onrender.com/)** – User car listing & buying platform powered by Django  
+- 🎬 **AI Movie Recommender** – Movie recommendation system using the TMDb API  
 
-Tools & Others
+> Explore more on my [GitHub profile](https://github.com/Muhammed-anas)
 
-Django Admin Panel
+---
+## 💬 Let's Connect
 
-Django Forms with CSRF
+Want to collaborate or discuss ideas? Feel free to reach out!
 
-Git & GitHub for version control
+- 📧 **Email:** muhammedanas6282@gmail.com  
+- 🔗 **LinkedIn:** [linkedin.com/in/muhammedanas](https://www.linkedin.com/in/muhammedanas)  
+- 🐙 **GitHub:** [github.com/Muhammed-anas](https://github.com/Muhammed-anas)
 
-🧠 Features in Development
-🔐 User authentication for blog authors
-
-💬 Comment system
-
-🏷️ Tag-based blog filtering
-
-
-🔍 Blog search functionality
-
-📚 My Broader Skills
-Languages: Python, JavaScript, TypeScript, Java, SQL, HTML, CSS
-Web Dev: Django, Flask, React, Bootstrap
-AI Tools: scikit-learn, TensorFlow, HuggingFace
-Databases: MongoDB, PostgreSQL, SQLite
-Tools: Git, VS Code, Postman, Netlify, GitHub
-
-💼 Other Projects
-🛍️ Shopfy – Full Stack eCommerce App (MERN)
-
-🤖 GalaxNova – AI Chatbot with NLP
-
-🚗 AutoLux – User Car Listing & Buying Portal
-
-🎬 AI Movie Recommender – Powered by TMDb API
-
-💻 Responsive Developer Portfolio
-
-💬 Let’s Connect
-📧 Email: muhammedanas6282@gmail.com
-🔗 LinkedIn: linkedin.com/in/muhammedanas
-🐙 GitHub: github.com/Muhammed-anas
+---
