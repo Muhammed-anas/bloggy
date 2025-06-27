@@ -61,7 +61,6 @@ I'm a passionate full stack developer focused on building scalable, elegant, and
 - 🛍️ **[Shopfy](https://shopfy-ncx.netlify.app/)** – Full stack MERN-based eCommerce platform with multi-step checkout  
 - 🤖 **[GalaxNova](https://galaxnova.netlify.app/)** – AI chatbot interface built with React and Tailwind CSS  
 - 🚘 **[AutoLux](https://autolux-ntbk.onrender.com/)** – User car listing & buying platform powered by Django  
-- 🎬 **AI Movie Recommender** – Movie recommendation system using the TMDb API  
 
 > Explore more on my [GitHub profile](https://github.com/Muhammed-anas)
 
