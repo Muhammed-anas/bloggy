@@ -1,88 +1,74 @@
 📝 Bloggy – Full Stack Blogging Platform (Python Django)
 A sleek, responsive blogging platform built with Django, enabling seamless content creation, management, and reading across all devices.
 
-🌐 Live Demo: [https://bloggy-4xrs.onrender.com/](https://bloggy-4xrs.onrender.com/)
+🌐 Live Demo: Coming Soon
 
 👋 Hi, I'm Muhammed Anas
 I'm a passionate full stack developer focused on building scalable, elegant web applications.
 Bloggy showcases my backend skills in Python/Django and clean frontend design using Bootstrap and Jinja2.
 
-📌 Project Overview
-Bloggy is a dynamic content management platform emphasizing simplicity, performance, and readability.
+---
+## 🚀 Project Overview
 
-🌟 Core Features
-🖊️ Post Management
-Create, update, and delete posts via a simple admin interface.
+**Bloggy** is a dynamic content management platform with features like:
 
-📂 Image Uploads
-Attach images to blog entries using Django’s media handling.
+- 🖊️ Post Management with create, edit, and delete options via Django admin  
+- 📂 Image Uploads with media file support  
+- 🧾 Homepage Post Cards with title, thumbnail, and timestamp  
+- 📄 Full Post View with clean formatting and metadata  
+- 📃 Static Pages like About and Contact  
+- 📱 Responsive UI built with Bootstrap for all screen sizes  
 
-🧾 Post Preview Cards
-Blog previews on the homepage with thumbnail, title, and timestamp.
+---
+## 🧱 Tech Stack
 
-📄 Detailed Post View
-Full content display with metadata on click.
+### Backend
+- **Python** with **Django**  
+- **SQLite** via Django ORM  
 
-📱 Responsive Design
-Mobile-friendly layout using Bootstrap and semantic HTML.
+### Frontend
+- **HTML5**, **CSS3**, **Bootstrap**  
+- **Jinja2** templating  
 
-📃 Static Pages
-Includes extra pages like About, Contact, and more.
+### Dev & Deployment
+- Django Admin Panel  
+- Django Forms with CSRF Protection  
+- Git & GitHub for version control  
+- **Render** for deployment  
 
-🧱 Tech Stack
-Backend
+---
+## 🧠 Features in Development
 
-Python
+- 🔐 User authentication for blog authors  
+- 💬 Comment system for readers  
+- 🏷️ Tag-based post filtering  
+- 🔍 Blog search functionality  
 
-Django
+---
+## 📚 My Broader Skills
 
-SQLite (Django ORM)
+- **Languages:** Python, JavaScript, TypeScript, Java, SQL, HTML, CSS  
+- **Web Development:** Django, Flask, React, Bootstrap  
+- **AI Tools:** scikit-learn, TensorFlow, HuggingFace  
+- **Databases:** MongoDB, SQLite, PostgreSQL  
+- **Tools:** Git, VS Code, Netlify, Postman, GitHub  
 
-Frontend
+---
+## 💼 Other Projects
 
-HTML5, CSS3
+- 🛍️ **[Shopfy](https://shopfy-ncx.netlify.app/)** – Full stack MERN-based eCommerce platform with multi-step checkout  
+- 🤖 **[GalaxNova](https://galaxnova.netlify.app/)** – AI chatbot interface built with React and Tailwind CSS  
+- 🚘 **[AutoLux](https://autolux-ntbk.onrender.com/)** – User car listing & buying platform powered by Django  
 
-Bootstrap
+> Explore more on my [GitHub profile](https://github.com/Muhammed-anas)
 
-Jinja2 Templating
+---
+## 💬 Let's Connect
 
-Tools & Others
+Want to collaborate or discuss ideas? Feel free to reach out!
 
-Django Admin Panel
+- 📧 **Email:** muhammedanas6282@gmail.com  
+- 🔗 **LinkedIn:** [linkedin.com/in/muhammedanas](https://www.linkedin.com/in/muhammedanas)  
+- 🐙 **GitHub:** [github.com/Muhammed-anas](https://github.com/Muhammed-anas)
 
-Django Forms with CSRF
-
-Git & GitHub for version control
-
-🧠 Features in Development
-🔐 User authentication for blog authors
-
-💬 Comment system
-
-🏷️ Tag-based blog filtering
-
-
-🔍 Blog search functionality
-
-📚 My Broader Skills
-Languages: Python, JavaScript, TypeScript, Java, SQL, HTML, CSS
-Web Dev: Django, Flask, React, Bootstrap
-AI Tools: scikit-learn, TensorFlow, HuggingFace
-Databases: MongoDB, PostgreSQL, SQLite
-Tools: Git, VS Code, Postman, Netlify, GitHub
-
-💼 Other Projects
-🛍️ Shopfy – Full Stack eCommerce App (MERN)
-
-🤖 GalaxNova – AI Chatbot with NLP
-
-🚗 AutoLux – User Car Listing & Buying Portal
-
-🎬 AI Movie Recommender – Powered by TMDb API
-
-💻 Responsive Developer Portfolio
-
-💬 Let’s Connect
-📧 Email: muhammedanas6282@gmail.com
-🔗 LinkedIn: linkedin.com/in/muhammedanas
-🐙 GitHub: github.com/Muhammed-anas
+---
