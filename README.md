@@ -1,7 +1,7 @@
 📝 Bloggy – Full Stack Blogging Platform (Python Django)
 A sleek, responsive blogging platform built with Django, enabling seamless content creation, management, and reading across all devices.
 
-🌐 Live Demo: Coming Soon
+🌐 Live Demo: [https://bloggy-4xrs.onrender.com/](https://bloggy-4xrs.onrender.com/)
 
 👋 Hi, I'm Muhammed Anas
 I'm a passionate full stack developer focused on building scalable, elegant web applications.

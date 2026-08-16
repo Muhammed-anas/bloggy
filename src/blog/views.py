@@ -41,9 +41,9 @@ class create_post(LoginRequiredMixin,View):
     
 
 def post_listing(request,id):
-    all_posts = Post.objects.filter(id=id)
+    post_details = Post.objects.filter(id=id)
     return render (request,'components/post.html',
-                   {'all_posts':all_posts})
+                   {'all_posts':post_details})
     
 
 class edit_view(View):

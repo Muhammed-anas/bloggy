@@ -125,6 +125,7 @@ LOGIN_REDIRECT_URL = '/home/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
