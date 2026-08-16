@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -43,35 +43,33 @@ class create_post(LoginRequiredMixin,View):
 def post_listing(request,id):
     post_details = Post.objects.filter(id=id)
     return render (request,'components/post.html',
-                   {'all_posts':post_details})
+                   {'post_details':post_details})
     
 
 class edit_view(View):
     def get(self, request, id):
-        listing=Post.objects.get(id=id)
-        if request.method == 'GET':
-            listing_form = postForms(instance=listing) 
-            return render (request, 'components/create-post.html',
-                        {'listing_form':listing_form,
-                            'route':'edit_post'})
+        listing = get_object_or_404(Post, id=id)
+        listing_form = postForms(instance=listing) 
+        return render (request, 'components/create-post.html',
+                    {'listing_form':listing_form,
+                        'route':'edit_post'})
     
     def post(self, request,id):
-        listing=Post.objects.get(id=id)
-        if request.method=='POST':
-            try:  
-                listing_form = postForms(request.POST, request.FILES, instance=listing)
-                if listing_form.is_valid():
-                    listing = listing_form.save(commit=False)
-                    listing.author = request.user.profile
-                    listing.save()
-                    messages.info(request,f'The post was updated')
-                    return redirect('home')
-                else:
-                    raise Exception
-            except Exception as e:
-                print(e)    
-            return render (request, 'components/create-post.html',
-                        {'listing_form':listing_form})
+        listing = get_object_or_404(Post, id=id)    
+        try:  
+            listing_form = postForms(request.POST, request.FILES, instance=listing)
+            if listing_form.is_valid():
+                listing = listing_form.save(commit=False)
+                listing.author = request.user.profile
+                listing.save()
+                messages.info(request,f'The post was updated')
+                return redirect('home')
+            else:
+                raise Exception
+        except Exception as e:
+            print(e)    
+        return render (request, 'components/create-post.html',
+                    {'listing_form':listing_form})
 
 
 @login_required
