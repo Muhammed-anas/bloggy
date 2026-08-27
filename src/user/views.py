@@ -5,40 +5,38 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 from django.views import View
 
-# Create your views here.
 class register_view(View):
     def get(self, request):
-        if request.method == 'GET':
-            register_form = UserCreationForm()
-            return render (request, 'views/registration.html',
-                        {'register_form':register_form})
-            
-    def post(self, request):
-        if request.method == 'POST':
-            register_form = UserCreationForm(data=request.POST)
-            try:
-                if register_form.is_valid():
-                    user = register_form.save()
-                    user.refresh_from_db()
-                    login(request, user)
-                    messages.success(request, f'User {user.username} registered successfully')
-                    return redirect ('home')
-                
-                else:
-                    messages.error(request,'There is an error occured')
-            except Exception as e:
-                print(e)
+        register_form = UserCreationForm()
         return render (request, 'views/registration.html',
-                        {'register_form':register_form})
+                    {'register_form':register_form})
+        
+            
+    def post(self, request):  
+        register_form = UserCreationForm(data=request.POST)
+        try:
+            if register_form.is_valid():
+                user = register_form.save()
+                user.refresh_from_db()
+                login(request, user)
+                messages.success(request, f'User {user.username} registered successfully')
+                return redirect ('home')
+            
+            else:
+                messages.error(request,'There is an error occured')
+        except Exception as e:
+            print(e)
+        return render (request, 'views/registration.html',
+                    {'register_form':register_form})
 
 
-def login_view(request):
-    if request.method == 'GET':
+class login_view(View):
+    def get(self, request):
         login_form = AuthenticationForm()
         return render(request, 'views/login.html',
                     {'login_form':login_form})
         
-    elif request.method == 'POST':
+    def post(self, request):
         login_form = AuthenticationForm(request = request ,data = request.POST)
         if login_form.is_valid():
             username = login_form.cleaned_data.get('username')
